@@ -2,10 +2,50 @@
 
 <head>
     <title>inline css</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+        </style>
+    <style>
+        body{
+            font-family: "Poppins",sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 10px;
+        }
+        h1{
+            color: rgb(119, 119, 119);
+            text-align: center;
+        }
+        h1:hover{
+            color: blueviolet;
+            transition: ease.3s;
+        }
+        button{
+            background-color: rgb(160, 160, 160);
+            color: rgb(0, 0, 0);
+            font-family: "Poppins",sans-serif;
+            font-weight: 500;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: ease.3s;
+            width: 120px;
+            height: 40px;
+        }
+        button:hover{
+            background-color: blueviolet;
+            transition: ease.3s;
+        }
+        p{
+            color: blueviolet;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 style="color: aquamarine; text-align: center;">Selamat datang </h1>
-</body>
+    <h1>Halaman Web Saya</h1>
+    <p>ini adalah paragraf pertama saya dengan dari CSS eksternal.</p>
+    <p>ini adalah paragraf kedua saya dengan gaya yang sama</p>
+    <button>Klik Saya</button>
 
 </html>
