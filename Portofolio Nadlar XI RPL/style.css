@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Host Grotesk',sans-serif;
+}
+
+nav ul {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 110px;
+    width: 500px;
+    height: 40px;
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(149,115,255,1) 100%);
+    border-radius: 100px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    translate: 335px -62rem;
+    list-style: none;
+    box-shadow: 0px 17px 34px -4px rgba(0,0,0,0.65);
+-webkit-box-shadow: 0px 17px 34px -4px rgba(0,0,0,0.65);
+-moz-box-shadow: 0px 17px 34px -4px rgba(0,0,0,0.65);
+
+}
+li {
+    list-style: none;
+}
+ul li a{
+    color: white;
+    font-family: 'Host Grotesk',sans-serif;
+    font-size: 26px ;
+    text-decoration: none;
+}
+ul li a:hover{
+    font-weight: bold;
+}
+.bg{
+
+    height: 1000px;
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(156,156,255,1) 73%, rgba(255,255,255,1) 100%);
+}
+.home-content{
+    translate: 150px -55rem;
+    font-size: 50px;
+    width: 1000px;
+    background: #000000;
+    background: linear-gradient(to bottom right, #000000 0%, #35008B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.home-content h2{
+    color: white;
+    background: #05093C;
+background: linear-gradient(to right, #05093C 20%, #3D0093 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    translate: 0px -100px;
+    font-size: px;
+}
